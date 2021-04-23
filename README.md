@@ -46,4 +46,10 @@ Locations For IPv6 Subnets
 <p align="center">
   <img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/Screenshot_3.jpg"> </p>
  
-
+<p align="justify">IPv6 Routing types :</p>
+<ul>	<li>Static</li>
+	<li>RIPng (RFC 2740)</li>
+	<li>IS-IS for IPv6</li>
+	<li>MP-BGP4 (RFC 2545/2858)</li>
+	<li>EIGP for IPv6</li>	</ul>
+<p align="justify">The IPv6 unicast-routing command is required to enable IPv6 before any routing protocol is configured.</p>
