@@ -69,7 +69,7 @@ Ketika kode mode pengguna berjalan, itu diberikan ruang alamat terbatasnya sendi
 Sistem file adalah bagaimana informasi diatur pada media penyimpanan. Beberapa sistem file mungkin merupakan pilihan yang lebih baik untuk digunakan daripada yang lain, tergantung pada jenis media yang akan digunakan. Tabel mencantumkan sistem file yang didukung Windows.
 </p>
 
-|Sistem File Windows	|	Deskripsi	|
+|Sistem File Windows	|	<p align="center">Deskripsi	</p>|
 |	:--		| 	:--		|
 |exFAT			| Ini adalah sistem file sederhana yang didukung oleh banyak sistem operasi yang berbeda.</br> FAT memiliki batasan jumlah partisi, ukuran partisi, dan ukuran file yang dapat ditangani, sehingga biasanya tidak digunakan untuk hard drive (HD) atau solid-state drive (SSD) lagi.</br>Baik FAT16 dan FAT32 tersedia untuk digunakan, dengan FAT32 yang paling umum karena memiliki batasan yang lebih sedikit daripada FAT16.|
 |Sistem File Hierarki Plus (HFS +)|Sistem file ini digunakan pada komputer MAC OS X dan memungkinkan nama file, ukuran file, dan ukuran partisi yang lebih panjang daripada sistem file sebelumnya.</br>Meskipun tidak didukung oleh Windows tanpa software khusus, Windows dapat membaca data dari partisi HFS +.|
