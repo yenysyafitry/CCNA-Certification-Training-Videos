@@ -21,7 +21,7 @@ Saat ini, banyak hal yang dulunya diselesaikan melalui antarmuka baris perintah 
 
 
 
-<ol>IPv6 Addressing Differences	<li>link Local Addresses</li>
+IPv6 Addressing Differences<ol>	<li>link Local Addresses</li>
 	<li>Solicited Node Multicast Address</li>
 	<li>Specific purpose multicast addresses </li> </ol>
 
