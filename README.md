@@ -25,18 +25,18 @@ Saat ini, banyak hal yang dulunya diselesaikan melalui antarmuka baris perintah 
 	<li>Solicited Node Multicast Address</li>
 	<li>Specific purpose multicast addresses </li> </ol>
 
-<p align="center"><b> IPv6 Address Notation</b></br>
-| Dec | Hex | Binary | Dec | Hex | Binary|
-|:--:| :--:| :--: | :--:| :--: | :--:|
-|0 | 0 | 0000 | 8 | 8 | 1000 |
-|1 | 1 | 0001 | 9 | 9 | 1001 |
-|2 | 2 | 0010 | 10 | A | 1010 |
-|3 | 3 | 0011 | 11 | B | 1011 |
-|4 | 4 | 0100 | 12 | C | 1100 |
-|5 | 5 | 0101 | 13 | D | 1101 |
-|6 | 6 | 0110 | 14 | E | 1110 |
-|7 | 7 | 0111 | 15 | F | 1111 |
-</p>
+<p align="center"><b> IPv6 Address Notation</b></br></p>
+	| Dec | Hex | Binary | Dec | Hex | Binary|
+	|:--:| :--:| :--: | :--:| :--: | :--:|
+	|0 | 0 | 0000 | 8 | 8 | 1000 |
+	|1 | 1 | 0001 | 9 | 9 | 1001 |
+	|2 | 2 | 0010 | 10 | A | 1010 |
+	|3 | 3 | 0011 | 11 | B | 1011 |
+	|4 | 4 | 0100 | 12 | C | 1100 |
+	|5 | 5 | 0101 | 13 | D | 1101 |
+	|6 | 6 | 0110 | 14 | E | 1110 |
+	|7 | 7 | 0111 | 15 | F | 1111 |
+
 one hex digit = 4 bits</br>
  2001   :  0DB8	  :   AAAA  :  1111   :  0000 :   0000  :  0000   :   0100</br>
 16 bits	  16 bits   16 bits   16 bits  16 bits  16 bits	  16 bits   16 bits    </br>
