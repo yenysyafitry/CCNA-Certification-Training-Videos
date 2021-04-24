@@ -69,12 +69,22 @@ Ketika kode mode pengguna berjalan, itu diberikan ruang alamat terbatasnya sendi
 Sistem file adalah bagaimana informasi diatur pada media penyimpanan. Beberapa sistem file mungkin merupakan pilihan yang lebih baik untuk digunakan daripada yang lain, tergantung pada jenis media yang akan digunakan. Tabel mencantumkan sistem file yang didukung Windows.
 </p>
 
-|Sistem File Windows	|	<p align="center">Deskripsi	</p>|
+|Sistem File Windows	|	Deskripsi	|
 |	:--		| 	:--		|
 |exFAT			| Ini adalah sistem file sederhana yang didukung oleh banyak sistem operasi yang berbeda.</br> FAT memiliki batasan jumlah partisi, ukuran partisi, dan ukuran file yang dapat ditangani, sehingga biasanya tidak digunakan untuk hard drive (HD) atau solid-state drive (SSD) lagi.</br>Baik FAT16 dan FAT32 tersedia untuk digunakan, dengan FAT32 yang paling umum karena memiliki batasan yang lebih sedikit daripada FAT16.|
 |Sistem File Hierarki Plus (HFS +)|Sistem file ini digunakan pada komputer MAC OS X dan memungkinkan nama file, ukuran file, dan ukuran partisi yang lebih panjang daripada sistem file sebelumnya.</br>Meskipun tidak didukung oleh Windows tanpa software khusus, Windows dapat membaca data dari partisi HFS +.|
 |Sistem File Diperluas (EXT)|Sistem file ini digunakan dengan komputer berbasis Linux.</br>Meskipun tidak didukung oleh Windows, Windows dapat membaca data dari partisi EXT dengan software khusus.|
 |Sistem File Teknologi Baru (NTFS)|Ini adalah sistem file yang paling umum digunakan saat menginstal Windows. Semua versi Windows dan Linux mendukung NTFS.</br> Komputer Mac-OS X hanya dapat membaca partisi NTFS. Mereka dapat menulis ke partisi NTFS setelah menginstal driver khusus.|
+
+ <p align="justify">NTFS adalah sistem file yang paling banyak digunakan untuk Windows karena berbagai alasan. NTFS mendukung file dan partisi yang sangat besar dan sangat kompatibel dengan sistem operasi lain. NTFS juga sangat andal dan mendukung fitur pemulihan. Yang terpenting, ini mendukung banyak fitur keamanan. Kontrol akses data dicapai melalui deskriptor keamanan. Penjelasan keamanan ini berisi kepemilikan file dan izin sampai ke tingkat file. NTFS juga melacak banyak stempel waktu untuk melacak aktivitas file. Kadang-kadang disebut sebagai MACE, stempel waktu Modifikasi, Akses, Buat, dan Modifikasi Entri sering digunakan dalam penyelidikan forensik untuk menentukan riwayat file atau folder. NTFS juga mendukung enkripsi sistem file untuk mengamankan seluruh media penyimpanan.</br></br>
+Sebelum perangkat penyimpanan seperti disk dapat digunakan, perangkat tersebut harus diformat dengan sistem file. Pada gilirannya, sebelum sistem file dapat ditempatkan pada perangkat penyimpanan, perangkat perlu dipartisi. Sebuah hard drive dibagi menjadi beberapa area yang disebut partisi. Setiap partisi adalah unit penyimpanan logis yang dapat diformat untuk menyimpan informasi, seperti file data atau aplikasi. Selama proses instalasi, kebanyakan sistem operasi secara otomatis mempartisi dan memformat ruang drive yang tersedia dengan sistem file seperti NTFS.</br></br>
+Pemformatan NTFS membuat struktur penting pada disk untuk penyimpanan file, dan tabel untuk merekam lokasi file:</p>
+<ul align="justify">	<li>
+Partition Boot Sector - Ini adalah 16 sektor pertama drive. Ini berisi lokasi Tabel File Master (MFT). 16 sektor terakhir berisi salinan sektor boot.</li>
+<li>Master File Table (MFT) - Tabel ini berisi lokasi semua file dan direktori di partisi, termasuk atribut file seperti informasi keamanan dan cap waktu.</li>
+<li>File Sistem - Ini adalah file tersembunyi yang menyimpan informasi tentang volume lain dan atribut file.</li>
+<li>Area File - Area utama partisi tempat file dan direktori disimpan.</li></ul>
+ <p align="justify">Catatan : Saat memformat partisi, data sebelumnya mungkin masih dapat dipulihkan karena tidak semua data dihapus sepenuhnya. Ruang kosong dapat diperiksa, dan file dapat diambil yang dapat membahayakan keamanan. Direkomendasikan untuk melakukan penghapusan aman pada drive yang sedang digunakan kembali. Penghapusan aman akan menulis data ke seluruh drive beberapa kali untuk memastikan tidak ada data yang tersisa.</p>
 
 <p align="justify">IPv6 Addressing Differences</p><ol><li>link Local Addresses</li>
 	<li>Solicited Node Multicast Address</li>
