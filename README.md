@@ -25,8 +25,7 @@ Saat ini, banyak hal yang dulunya diselesaikan melalui antarmuka baris perintah 
 	<li>Solicited Node Multicast Address</li>
 	<li>Specific purpose multicast addresses </li> </ol>
 
-<p align="justify"><b> IPv6 Address Notation</b></p>
-
+<p align="center"><b> IPv6 Address Notation</b></br>
 | Dec | Hex | Binary | Dec | Hex | Binary|
 |:--:| :--:| :--: | :--:| :--: | :--:|
 |0 | 0 | 0000 | 8 | 8 | 1000 |
@@ -37,11 +36,11 @@ Saat ini, banyak hal yang dulunya diselesaikan melalui antarmuka baris perintah 
 |5 | 5 | 0101 | 13 | D | 1101 |
 |6 | 6 | 0110 | 14 | E | 1110 |
 |7 | 7 | 0111 | 15 | F | 1111 |
-
-one hex digit = 4 bits
- 2001   :  0DB8	  :   AAAA  :  1111   :  0000 :   0000  :  0000   :   0100
-16 bits	  16 bits   16 bits   16 bits  16 bits  16 bits	  16 bits   16 bits    
-   1         2         3         4        5        6         7         8
+</p>
+one hex digit = 4 bits</br>
+ 2001   :  0DB8	  :   AAAA  :  1111   :  0000 :   0000  :  0000   :   0100</br>
+16 bits	  16 bits   16 bits   16 bits  16 bits  16 bits	  16 bits   16 bits    </br>
+   1         2         3         4        5        6         7         8</br>
 
 <p align="justify">IPv6 addresses are 128 bit addresses represented in :/p>
 <ol>	<li>eight 16 bit segments or "hextets" (not a formal term)</li>
