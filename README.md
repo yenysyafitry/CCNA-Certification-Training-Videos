@@ -21,12 +21,11 @@ Saat ini, banyak hal yang dulunya diselesaikan melalui antarmuka baris perintah 
 
 
 
-<p align="justify">IPv6 Addressing Differences</p>
-<ol>	<li>link Local Addresses</li>
+<p align="justify">IPv6 Addressing Differences</p><ol>	<li>link Local Addresses</li>
 	<li>Solicited Node Multicast Address</li>
 	<li>Specific purpose multicast addresses </li> </ol>
 
-### IPv6 Address Notation
+<p align="justify"><b> IPv6 Address Notation</b></p>
 
 | Dec | Hex | Binary | Dec | Hex | Binary|
 |:--:| :--:| :--: | :--:| :--: | :--:|
