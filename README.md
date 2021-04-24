@@ -90,7 +90,7 @@ Partition Boot Sector - Ini adalah 16 sektor pertama drive. Ini berisi lokasi Ta
 	<li>Solicited Node Multicast Address</li>
 	<li>Specific purpose multicast addresses </li> </ol>
 
-<p align="center"><b> IPv6 Address Notation</b></br></p>
+<p align="justify"><b> IPv6 Address Notation</b></br></p>
 
 | Dec | Hex | Binary | Dec | Hex | Binary|
 |:--:| :--:| :--: | :--:| :--: | :--:|
