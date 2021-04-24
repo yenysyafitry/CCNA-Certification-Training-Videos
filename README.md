@@ -39,7 +39,7 @@ Tabel mencantumkan beberapa rekomendasi umum Keamanan OS Windows.
 </p>
 
 |Rekomendasi			|		Deskripsi					|
-| :-- 				|		:-- 						|
+| :-- 				|		:---: 						|
 |Perlindungan virus atau malware |Secara default, Windows menggunakan Windows Defender untuk perlindungan malware. </br>Windows Defender menyediakan seperangkat alat perlindungan yang dibangun ke dalam sistem. </br>Jika Windows Defender dimatikan, sistem menjadi lebih rentan terhadap serangan dan malware. |
 |Layanan tidak dikenal atau tidak dikelola | Ada banyak layanan yang dijalankan di balik layar. </br>Penting untuk memastikan bahwa setiap layanan dapat diidentifikasi dan aman.</br>Dengan layanan tidak dikenal yang berjalan di latar belakang, komputer bisa rentan terhadap serangan.|
 |Enkripsi |Ketika data tidak dienkripsi, data dapat dengan mudah dikumpulkan dan dieksploitasi.</br>Ini tidak hanya penting untuk komputer desktop, tetapi terutama perangkat seluler.|
