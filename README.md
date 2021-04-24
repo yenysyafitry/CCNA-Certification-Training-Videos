@@ -19,8 +19,10 @@ Saat ini, banyak hal yang dulunya diselesaikan melalui antarmuka baris perintah 
 |	Tolong		|Menampilkan semua perintah yang dapat digunakan, dengan penjelasan singkat|
 |perintah bantuan	|Menampilkan bantuan ekstensif untuk perintah yang ditunjukkan|
 
-
-
+ <p align="justify"><b>Versi Windows</b></br>
+Sejak 1993, ada lebih dari 20 rilis Windows yang didasarkan pada sistem operasi NT. Sebagian besar versi ini untuk digunakan oleh masyarakat umum dan bisnis karena keamanan file yang ditawarkan oleh sistem file yang digunakan oleh OS NT. Bisnis juga mengadopsi sistem operasi Windows berbasis OS NT. Ini karena banyak edisi dibuat khusus untuk workstation, profesional, server, server tingkat lanjut, dan server pusat data, untuk menyebutkan beberapa dari banyak versi yang dibuat khusus.</br></br>
+Dimulai dengan Windows XP, edisi 64-bit telah tersedia. Sistem operasi 64-bit adalah arsitektur yang sama sekali baru. Itu memiliki ruang alamat 64-bit, bukan ruang alamat 32-bit. Ini bukan hanya dua kali jumlah ruang karena bit ini adalah bilangan biner. Sementara Windows 32-bit dapat menangani RAM kurang dari 4 GB, Windows 64-bit secara teoritis dapat menangani 16,8 juta terabyte. Ketika OS dan perangkat keras semuanya mendukung operasi 64-bit, kumpulan data yang sangat besar dapat digunakan. Kumpulan data yang besar ini mencakup database yang sangat besar, komputasi ilmiah, dan manipulasi video digital definisi tinggi dengan efek khusus. Secara umum, komputer dan sistem operasi 64-bit kompatibel dengan versi sebelumnya, program 32-bit, tetapi program 64-bit tidak dapat dijalankan pada perangkat keras 32-bit yang lebih lama.</br></br>
+Dengan setiap rilis Windows berikutnya, sistem operasi menjadi lebih disempurnakan dengan memasukkan lebih banyak fitur. Windows 7 ditawarkan dengan enam edisi berbeda, Windows 8 sebanyak lima, dan Windows 10 dengan delapan edisi berbeda! Setiap edisi tidak hanya menawarkan kemampuan yang berbeda, tetapi juga harga yang berbeda. Microsoft telah mengatakan bahwa Windows 10 adalah versi terakhir Windows, dan Windows telah menjadi layanan, bukan hanya OS. Mereka mengatakan bahwa daripada membeli sistem operasi baru, pengguna hanya akan memperbarui Windows 10 sebagai gantinya.</p>
 <p align="justify">IPv6 Addressing Differences</p><ol><li>link Local Addresses</li>
 	<li>Solicited Node Multicast Address</li>
 	<li>Specific purpose multicast addresses </li> </ol>
