@@ -26,6 +26,7 @@ Saat ini, banyak hal yang dulunya diselesaikan melalui antarmuka baris perintah 
 	<li>Specific purpose multicast addresses </li> </ol>
 
 <p align="center"><b> IPv6 Address Notation</b></br></p>
+
 | Dec | Hex | Binary | Dec | Hex | Binary|
 |:--:| :--:| :--: | :--:| :--: | :--:|
 |0 | 0 | 0000 | 8 | 8 | 1000 |
