@@ -49,6 +49,32 @@ Tabel mencantumkan beberapa rekomendasi umum Keamanan OS Windows.
 |Kata sandi lemah atau tidak ada|Banyak orang memilih kata sandi yang lemah atau tidak menggunakan kata sandi sama sekali.</br>Sangat penting untuk memastikan bahwa semua akun, terutama akun Administrator, memiliki kata sandi yang sangat kuat.|
 |Login sebagai Administrator|Saat pengguna masuk sebagai administrator, program apa pun yang mereka jalankan akan memiliki hak istimewa dari akun itu.</br> Yang terbaik adalah masuk sebagai Pengguna Standar dan hanya menggunakan kata sandi administrator untuk menyelesaikan tugas-tugas tertentu.|
 
+<p align="justify"><b>Lapisan Abstraksi Perangkat Keras</b></br>
+Komputer Windows menggunakan berbagai jenis perangkat keras. Sistem operasi dapat diinstal di komputer yang dibeli atau di komputer yang dirakit oleh pengguna. Ketika sistem operasi diinstal, itu harus diisolasi dari perbedaan perangkat keras. Arsitektur dasar Windows ditunjukkan pada gambar.</p>
+
+<p align="center">
+  <img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/Screenshot_7.jpg"> </p>
+ 
+<p align="justify">Lapisan abstraksi perangkat keras (HAL) adalah perangkat lunak yang menangani semua komunikasi antara perangkat keras dan kernel. Kernel adalah inti dari sistem operasi dan memiliki kendali atas seluruh komputer. Ini menangani semua permintaan input dan output, memori, dan semua periferal yang terhubung ke komputer.</br>
+Dalam beberapa kasus, kernel masih berkomunikasi dengan perangkat keras secara langsung, sehingga tidak sepenuhnya independen dari HAL. HAL juga membutuhkan kernel untuk menjalankan beberapa fungsi.</br></br>
+<b>Mode Pengguna dan Mode Kernel</b></br>
+Seperti yang ditunjukkan pada gambar, ada dua mode berbeda di mana CPU beroperasi ketika komputer telah menginstal Windows: mode pengguna dan mode kernel.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/Screenshot_8.jpg"> </p>
+ <p align="justify">
+ Aplikasi yang diinstal berjalan dalam mode pengguna, dan kode sistem operasi berjalan dalam mode kernel. Kode yang dijalankan dalam mode kernel memiliki akses tidak terbatas ke perangkat keras yang mendasarinya dan mampu menjalankan instruksi CPU apa pun. Kode mode kernel juga dapat merujuk ke alamat memori apa pun secara langsung. Umumnya disediakan untuk fungsi OS yang paling tepercaya, crash dalam kode yang berjalan dalam mode kernel menghentikan operasi seluruh komputer. Sebaliknya, program seperti aplikasi pengguna, berjalan dalam mode pengguna dan tidak memiliki akses langsung ke perangkat keras atau lokasi memori. Kode mode pengguna harus melalui sistem operasi untuk mengakses sumber daya perangkat keras. Karena isolasi yang disediakan oleh mode pengguna, kerusakan dalam mode pengguna dibatasi hanya untuk aplikasi dan dapat dipulihkan. Sebagian besar program di Windows berjalan dalam mode pengguna.</br></br> 
+Semua kode yang berjalan dalam mode kernel menggunakan ruang alamat yang sama. Driver mode kernel tidak memiliki isolasi dari sistem operasi. Jika terjadi kesalahan dengan driver yang berjalan dalam mode kernel, dan itu menulis ke ruang alamat yang salah, sistem operasi atau driver mode kernel lainnya dapat terpengaruh secara negatif. Dalam hal ini, pengemudi mungkin macet, menyebabkan seluruh sistem operasi macet.</br></br>
+Ketika kode mode pengguna berjalan, itu diberikan ruang alamat terbatasnya sendiri oleh kernel, bersama dengan proses yang dibuat khusus untuk aplikasi. Alasan fungsionalitas ini terutama untuk mencegah aplikasi mengubah kode sistem operasi yang berjalan pada waktu yang sama. Dengan memiliki prosesnya sendiri, aplikasi tersebut memiliki ruang alamat pribadinya sendiri, sehingga aplikasi lain tidak dapat mengubah data di dalamnya. Ini juga membantu mencegah sistem operasi dan aplikasi lain agar tidak mogok jika aplikasi tersebut macet.</br></br> 
+<b>Sistem File Windows</b></br>
+Sistem file adalah bagaimana informasi diatur pada media penyimpanan. Beberapa sistem file mungkin merupakan pilihan yang lebih baik untuk digunakan daripada yang lain, tergantung pada jenis media yang akan digunakan. Tabel mencantumkan sistem file yang didukung Windows.
+</p>
+
+|Sistem File Windows	|	Deskripsi	|
+|	:--		| 	:--		|
+|exFAT			| Ini adalah sistem file sederhana yang didukung oleh banyak sistem operasi yang berbeda.</br> FAT memiliki batasan jumlah partisi, ukuran partisi, dan ukuran file yang dapat ditangani, sehingga biasanya tidak digunakan untuk hard drive (HD) atau solid-state drive (SSD) lagi.</br>Baik FAT16 dan FAT32 tersedia untuk digunakan, dengan FAT32 yang paling umum karena memiliki batasan yang lebih sedikit daripada FAT16.|
+|Sistem File Hierarki Plus (HFS +)|Sistem file ini digunakan pada komputer MAC OS X dan memungkinkan nama file, ukuran file, dan ukuran partisi yang lebih panjang daripada sistem file sebelumnya.</br>Meskipun tidak didukung oleh Windows tanpa software khusus, Windows dapat membaca data dari partisi HFS +.|
+|Sistem File Diperluas (EXT)|Sistem file ini digunakan dengan komputer berbasis Linux.</br>Meskipun tidak didukung oleh Windows, Windows dapat membaca data dari partisi EXT dengan software khusus.|
+|Sistem File Teknologi Baru (NTFS)|Ini adalah sistem file yang paling umum digunakan saat menginstal Windows. Semua versi Windows dan Linux mendukung NTFS.</br> Komputer Mac-OS X hanya dapat membaca partisi NTFS. Mereka dapat menulis ke partisi NTFS setelah menginstal driver khusus.|
 
 <p align="justify">IPv6 Addressing Differences</p><ol><li>link Local Addresses</li>
 	<li>Solicited Node Multicast Address</li>
