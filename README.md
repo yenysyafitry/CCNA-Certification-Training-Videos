@@ -53,3 +53,21 @@ Locations For IPv6 Subnets
 	<li>MP-BGP4 (RFC 2545/2858)</li>
 	<li>EIGP for IPv6</li>	</ul>
 <p align="justify">The IPv6 unicast-routing command is required to enable IPv6 before any routing protocol is configured.</p>
+<p align="justify"><b>Sistem Operasi Disk</b></br>Komputer pertama tidak memiliki perangkat penyimpanan modern seperti hard drive, drive optik, atau penyimpanan flash. Metode penyimpanan pertama menggunakan kartu berlubang, pita kertas, pita magnetik, dan bahkan kaset audio. Floppy disk dan penyimpanan hard disk memerlukan perangkat lunak untuk membaca, menulis, dan mengelola data yang disimpannya. Disk Operating System (DOS) adalah sistem operasi yang digunakan komputer untuk mengaktifkan perangkat penyimpanan data ini untuk membaca dan menulis file. DOS menyediakan sistem file yang mengatur file dengan cara tertentu pada disk. Microsoft membeli DOS dan mengembangkan MS-DOS. MS-DOS menggunakan baris perintah sebagai antarmuka bagi orang-orang untuk membuat program dan memanipulasi file data, seperti yang ditunjukkan pada keluaran perintah. Perintah DOS ditampilkan dalam teks tebal.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/Screenshot_4.jpg"> </p>
+  <p align="justify"> Versi awal Windows terdiri dari Antarmuka Pengguna Grafis (GUI) yang berjalan di atas MS-DOS, dimulai dengan Windows 1.0 pada tahun 1985. Sistem operasi disk masih mengontrol komputer dan perangkat kerasnya. Sistem operasi modern seperti Windows 10 tidak dianggap sebagai sistem operasi disk. Itu dibangun di atas Windows NT, yang merupakan singkatan dari "Teknologi Baru". Sistem operasi itu sendiri mengendalikan langsung komputer dan perangkat kerasnya. NT adalah OS dengan dukungan untuk banyak proses pengguna. Ini jauh berbeda dari proses tunggal, MS-DOS pengguna tunggal.</br></br>
+Saat ini, banyak hal yang dulunya diselesaikan melalui antarmuka baris perintah MS-DOS dapat diselesaikan di GUI Windows. Anda masih bisa merasakan bagaimana rasanya menggunakan MS-DOS dengan membuka jendela perintah, tetapi yang Anda lihat bukan lagi MS-DOS, ini adalah fungsi dari Windows. Untuk mengalami sedikit pengalaman bekerja di MS-DOS, buka jendela perintah dengan mengetik cmd di Windows Search dan menekan Enter . Tabel mencantumkan beberapa perintah yang dapat Anda gunakan. Masukkan bantuan diikuti dengan perintah untuk mempelajari lebih lanjut tentang perintah tersebut.</p>
+|Perintah MS-DOS|Deskripsi|
+|:--| |
+|dir|Menampilkan daftar semua file di direktori (folder) saat ini|
+|direktori cd|Mengubah direktori ke direktori yang ditunjukkan|
+|cd ..|Mengubah direktori ke direktori di atas direktori saat ini|
+|cd \||Mengubah direktori ke direktori root (biasanya C :)|
+|salin tujuan sumber|Menyalin file ke lokasi lain|
+|del nama file|Menghapus satu atau lebih file|
+|Temukan|Mencari teks dalam file|
+|direktori mkdir| Membuat direktori baru|
+|ren oldname newname|Ganti nama file|
+|Tolong|Menampilkan semua perintah yang dapat digunakan, dengan penjelasan singkat|
+|perintah bantuan|Menampilkan bantuan ekstensif untuk perintah yang ditunjukkan|
