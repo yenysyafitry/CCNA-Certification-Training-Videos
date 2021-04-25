@@ -194,7 +194,7 @@ Sebuah "internet" adalah sekelompok jaringan yang saling berhubungan. Internet, 
 Tabel routing IP terdiri dari alamat tujuan / pasangan hop berikutnya. Contoh tabel routing dari router Cisco ini menunjukkan bahwa entri pertama diartikan sebagai "untuk mencapai jaringan 34.1.0.0 (subnet 1 pada jaringan 34), perhentian berikutnya adalah node di alamat 54.34.23.12":</p>
 
 ```plantuml
-R6-2500 # menunjukkan rute ip
+R6-2500 #menunjukkan rute ip
    Kode: C - tersambung, S - statis, I - IGRP, R - RIP, M - seluler, B - BGP
    D - EIGRP, EX - EIGRP eksternal, O - OSPF, IA - OSPF antar area
    N1 - OSPF NSSA eksternal tipe 1, N2 - OSPF NSSA tipe eksternal 2
@@ -207,15 +207,45 @@ Gerbang pilihan terakhir tidak ditetapkan
 O 34.1.0.0 [110/65] melalui 54.34.23.12, 00:00:51, Serial0
    54.0.0.0/24 di-subnet, 1 subnet
 C 54.34.23.0 terhubung langsung, Serial0
-R6-2500 #
+R6-2500#
 ```
 
 <p align="justify">Seperti yang telah kita lihat, perutean IP menentukan bahwa datagram IP melakukan perjalanan melalui internetwork satu lompatan router pada satu waktu. Seluruh rute tidak diketahui di awal perjalanan. Sebaliknya, di setiap perhentian, hop router berikutnya ditentukan dengan mencocokkan alamat tujuan dalam datagram dengan entri di tabel routing node saat ini. Keterlibatan setiap node dalam proses perutean hanya terdiri dari paket penerusan berdasarkan informasi internal. IP tidak menyediakan pelaporan kesalahan kembali ke sumber saat terjadi anomali perutean.</br></br>
 ICMP melakukan sejumlah tugas dalam sebuah IP internetwork. Selain alasan utama pembuatannya (melaporkan kegagalan perutean kembali ke sumber), ICMP menyediakan metode untuk menguji jangkauan node di internet (pesan ICMP Echo dan Balas), metode untuk meningkatkan efisiensi perutean (ICMP Redirect message), metode untuk memberi tahu sumber bahwa datagram telah melebihi waktu yang dialokasikan untuk ada dalam internet (pesan ICMP Time Exceeded), dan pesan bermanfaat lainnya. Secara keseluruhan, ICMP merupakan bagian integral dari implementasi IP apa pun, terutama yang berjalan di router. </p>
 
+<p align="justify">Jika definisi berguna bagi Anda, gunakan istilah kosakata ini untuk membantu Anda memulai:</p>
+<ul align="justify"><li>Alamat -  Nomor ID unik yang ditetapkan ke satu host atau antarmuka dalam jaringan.</li>
+<li>Subnet -  Bagian dari jaringan yang berbagi alamat subnet tertentu.</li>
+<li>Subnet mask -  Kombinasi 32-bit yang digunakan untuk mendeskripsikan bagian mana dari alamat yang merujuk ke subnet dan bagian mana yang merujuk ke host.</li>
+<li>Antarmuka -  Koneksi jaringan.</li></ul>
+
 <p align="justify">IPv6 Addressing Differences</p><ol><li>link Local Addresses</li>
 	<li>Solicited Node Multicast Address</li>
 	<li>Specific purpose multicast addresses </li> </ol>
+
+<p align="justify"><b>Pahami Alamat IP</b>
+Alamat IP adalah alamat yang digunakan untuk mengidentifikasi perangkat secara unik di jaringan IP. Alamatnya terdiri dari 32 bit biner, yang dapat dibagi menjadi bagian jaringan dan bagian host dengan bantuan subnet mask. 32 bit biner dipecah menjadi empat oktet (1 oktet = 8 bit). Setiap oktet diubah menjadi desimal dan dipisahkan oleh titik (titik). Untuk alasan ini, alamat IP dinyatakan dalam format desimal bertitik (misalnya, 172.16.81.100). Nilai di setiap oktet berkisar dari 0 hingga 255 desimal, atau 00000000 - 11111111 biner.</br></br>
+Berikut adalah bagaimana oktet biner diubah menjadi desimal: Bit paling kanan, atau bit paling tidak signifikan, dari sebuah oktet memiliki nilai 2 <sup>0</sup> . Bit di sebelah kiri yang memiliki nilai 2 <sup>1</sup> . Ini berlanjut hingga bit paling kiri, atau bit paling signifikan, yang memiliki nilai 2 <sup>7</sup> . Jadi jika semua bit biner adalah satu, padanan desimalnya adalah 255 seperti yang ditunjukkan di sini:</p>
+
+```plantuml
+    1 1 1 1 1 1 1 1
+  128 64 32 16 8 4 2 1 (128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255)
+```
+
+<p align="justify">Dan contoh ini menunjukkan alamat IP yang direpresentasikan dalam biner dan desimal.</p>
+```plantuml
+ 0 1 0 0 0 0 0 1
+ 0 64 0 0 0 0 0 1 (0 + 64 + 0 + 0 + 0 + 0 + 0 + 1 = 65)
+```
+
+<p align="justify">Berikut adalah contoh konversi oktet ketika tidak semua bit disetel ke 1.</p>
+```plantuml
+        10. 1. 23. 19 (desimal)
+  00001010.00000001.00010111.00010011 (biner)
+```
+
+
+<p align="center"><img src="https://github.com/yenysyafitry/Cisco-CCNA/blob/main/13769-fig-5-new.png"> </p>
 
 <p align="justify"><b> IPv6 Address Notation</b></br></p>
 
