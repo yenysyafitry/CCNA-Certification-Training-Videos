@@ -225,7 +225,7 @@ ICMP melakukan sejumlah tugas dalam sebuah IP internetwork. Selain alasan utama 
 
 <p align="justify"><b>Pahami Alamat IP</b>
 Alamat IP adalah alamat yang digunakan untuk mengidentifikasi perangkat secara unik di jaringan IP. Alamatnya terdiri dari 32 bit biner, yang dapat dibagi menjadi bagian jaringan dan bagian host dengan bantuan subnet mask. 32 bit biner dipecah menjadi empat oktet (1 oktet = 8 bit). Setiap oktet diubah menjadi desimal dan dipisahkan oleh titik (titik). Untuk alasan ini, alamat IP dinyatakan dalam format desimal bertitik (misalnya, 172.16.81.100). Nilai di setiap oktet berkisar dari 0 hingga 255 desimal, atau 00000000 - 11111111 biner.</br></br>
-Berikut adalah bagaimana oktet biner diubah menjadi desimal: Bit paling kanan, atau bit paling tidak signifikan, dari sebuah oktet memiliki nilai 2 <sup>0</sup> . Bit di sebelah kiri yang memiliki nilai 2 <sup>1</sup> . Ini berlanjut hingga bit paling kiri, atau bit paling signifikan, yang memiliki nilai 2 <sup>7</sup> . Jadi jika semua bit biner adalah satu, padanan desimalnya adalah 255 seperti yang ditunjukkan di sini:</p>
+Berikut adalah bagaimana oktet biner diubah menjadi desimal: Bit paling kanan, atau bit paling tidak signifikan, dari sebuah oktet memiliki nilai 2<sup>0</sup> . Bit di sebelah kiri yang memiliki nilai 2<sup>1</sup> . Ini berlanjut hingga bit paling kiri, atau bit paling signifikan, yang memiliki nilai 2<sup>7</sup> . Jadi jika semua bit biner adalah satu, padanan desimalnya adalah 255 seperti yang ditunjukkan di sini:</p>
 
 ```plantuml
     1 1 1 1 1 1 1 1
