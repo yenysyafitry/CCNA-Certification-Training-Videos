@@ -233,12 +233,14 @@ Berikut adalah bagaimana oktet biner diubah menjadi desimal: Bit paling kanan, a
 ```
 
 <p align="justify">Dan contoh ini menunjukkan alamat IP yang direpresentasikan dalam biner dan desimal.</p>
+
 ```plantuml
  0 1 0 0 0 0 0 1
  0 64 0 0 0 0 0 1 (0 + 64 + 0 + 0 + 0 + 0 + 0 + 1 = 65)
 ```
 
 <p align="justify">Berikut adalah contoh konversi oktet ketika tidak semua bit disetel ke 1.</p>
+
 ```plantuml
         10. 1. 23. 19 (desimal)
   00001010.00000001.00010111.00010011 (biner)
