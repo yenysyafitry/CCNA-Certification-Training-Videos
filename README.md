@@ -201,7 +201,16 @@ one hex digit = 4 bits</br>
        <li> Separated by colors</li> </ol>
 
 
-
+<table>
+        <tr>
+            <td>Baris 1 kolom 1</td>
+            <td>baris 1 kolom 2</td>
+        </tr>
+        <tr>
+            <td>Baris 2 kolom 1</td>
+            <td>baris 2 kolom 2</td>
+        </tr>
+    </table>
 
 Sample IPv4 Subnets
 <p align="center">
