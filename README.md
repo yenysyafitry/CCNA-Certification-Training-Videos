@@ -86,6 +86,18 @@ Partition Boot Sector - Ini adalah 16 sektor pertama drive. Ini berisi lokasi Ta
 <li>Area File - Area utama partisi tempat file dan direktori disimpan.</li></ul>
  <p align="justify">Catatan : Saat memformat partisi, data sebelumnya mungkin masih dapat dipulihkan karena tidak semua data dihapus sepenuhnya. Ruang kosong dapat diperiksa, dan file dapat diambil yang dapat membahayakan keamanan. Direkomendasikan untuk melakukan penghapusan aman pada drive yang sedang digunakan kembali. Penghapusan aman akan menulis data ke seluruh drive beberapa kali untuk memastikan tidak ada data yang tersisa.</p>
 
+<p align="justify"><b>Ethernet</b></br>
+Istilah Ethernet mengacu pada keluarga produk jaringan area lokal (LAN) yang dicakup oleh standar IEEE 802.3 yang mendefinisikan apa yang umumnya dikenal sebagai protokol CSMA / CD. Empat kecepatan data saat ini ditentukan untuk pengoperasian melalui serat optik dan kabel twisted-pair:</p>
+<ul align="justify">	<li> 10 Mbps - 10Base-T Ethernet</li>
+<li>100 Mbps - Ethernet Cepat</li>
+<li> 1.000 Mbps - Gigabit Ethernet</li>
+<li> 10.000 Mbps - 10 Gigabit Ethernet</li></ul>
+<p align="justify">Ethernet saat ini digunakan untuk sekitar 85 persen PC dan workstation yang terhubung ke LAN di dunia. Ethernet adalah teknologi LAN utama karena karakteristik berikut:</p>
+<ul align="justify">	<li>Mudah dipahami, diterapkan, dikelola, dan dipelihara</li>
+<li> Memungkinkan implementasi jaringan berbiaya rendah</li>
+<li> Memberikan fleksibilitas topologi yang luas untuk instalasi jaringan</li>
+<li> Menjamin keberhasilan interkoneksi dan pengoperasian produk yang memenuhi standar, terlepas dari pabrikannya</li></ul>
+
 <p align="justify">IPv6 Addressing Differences</p><ol><li>link Local Addresses</li>
 	<li>Solicited Node Multicast Address</li>
 	<li>Specific purpose multicast addresses </li> </ol>
