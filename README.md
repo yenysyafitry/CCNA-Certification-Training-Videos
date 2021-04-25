@@ -161,12 +161,12 @@ Beberapa aplikasi umum komunikasi data nirkabel meliputi yang berikut ini:</p>
 <p align="justify">Aplikasi umum komunikasi data nirkabel lainnya adalah LAN nirkabel (WLAN), yang dibuat sesuai dengan standar Institute of Electrical and Electronic Engineers (IEEE) 802.11. WLAN biasanya menggunakan gelombang radio (misalnya, 902 MHz), gelombang mikro (misalnya, 2,4 GHz), dan gelombang inframerah (IR) (misalnya, 820 nm) untuk komunikasi. Teknologi nirkabel adalah bagian penting dari masa depan jaringan.</br></br>
 <b>Membandingkan Jenis Media</b></br></br>
 Pilihan jenis media mempengaruhi jenis kartu antarmuka jaringan yang dipasang, kecepatan jaringan, dan kemampuan jaringan untuk memenuhi kebutuhan di masa mendatang. Tabel 4-1 membandingkan fitur media jaringan umum, termasuk UTP, STP, kabel koaksial, serat optik, dan koneksi nirkabel.</p>
-<table align="justify"><tr>
+<table align="justify"><tr align="center">
 <td>Tipe media</td><td>Panjang Segmen Maksimum</td><td>Kecepatan</td><td>Biaya Komparatif</td><td>Keuntungan</td><td>Kekurangan	</td>
 <tr><td> UTP</td><td>100 meter</td><td>10 Mbps</br>100 Mbps</td><td>Paling murah</td><td>Mudah dipasang, tersedia luas, banyak digunakan|Rentan terhadap gangguan; hanya dapat menempuh jarak yang terbatas</td></tr>
 <tr><td> STP</td><td>100 meter</td><td>10–100 Mbps</td><td>Lebih mahal dari UTP|Mengurangi crosstalk, kurang rentan terhadap EMI dibandingkan UTP atau Thinnet</td><td>Sulit untuk dikerjakan; hanya dapat menempuh jarak yang terbatas</td></tr>
 <tr><td> Koaksial</td><td>500 meter (Thicknet)</br>185 meter (Thinnet)</td><td>10–100 Mbps</td><td>Relatif murah, tapi lebih mahal dari UTP</td><td>Kurang rentan terhadap EMI dibandingkan jenis media tembaga lainnya</td><td>Sulit untuk bekerja dengan (Thicknet), bandwidth terbatas, aplikasi terbatas (Thinnet), kerusakan kabel dapat merusak seluruh jaringan</td></tr>
-<tr><td>Serat optik</td><td>3 km dan lebih jauh (mode tunggal)</br>2 km dan lebih jauh (multimode)</td><td>10–1000 Mbps (mode tunggal)</br>100 Mbps – 9,92 Gbps (multimode)</td><td>Mahal</td><td>Tidak dapat disadap dengan mudah, jadi keamanan lebih baik; dapat digunakan dalam jarak yang sangat jauh; tidak rentan terhadap EMI; kecepatan data yang lebih tinggi daripada coaxial dan twisted-pair|Sulit untuk dihentikan</td></tr>
+<tr><td>Serat optik</td><td>3 km dan lebih jauh (mode tunggal)</br>2 km dan lebih jauh (multimode)</td><td>10–1000 Mbps (mode tunggal)</br>100 Mbps – 9,92 Gbps (multimode)</td><td>Mahal</td><td>Tidak dapat disadap dengan mudah, jadi keamanan lebih baik; dapat digunakan dalam jarak yang sangat jauh; tidak rentan terhadap EMI; kecepatan data yang lebih tinggi daripada coaxial dan twisted-pair</td><td>Sulit untuk dihentikan</td></tr>
 <tr><td>Nirkabel</td><td>50 km — global</br>1–54 Mbps</td><td>Mahal</td><td>Tidak membutuhkan instalasi media</td><td>Rentan terhadap kondisi atmosfer</td></tr>
     </table>
 
