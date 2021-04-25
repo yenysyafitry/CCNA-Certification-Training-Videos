@@ -161,7 +161,7 @@ Beberapa aplikasi umum komunikasi data nirkabel meliputi yang berikut ini:</p>
 <p align="justify">Aplikasi umum komunikasi data nirkabel lainnya adalah LAN nirkabel (WLAN), yang dibuat sesuai dengan standar Institute of Electrical and Electronic Engineers (IEEE) 802.11. WLAN biasanya menggunakan gelombang radio (misalnya, 902 MHz), gelombang mikro (misalnya, 2,4 GHz), dan gelombang inframerah (IR) (misalnya, 820 nm) untuk komunikasi. Teknologi nirkabel adalah bagian penting dari masa depan jaringan.</br></br>
 <b>Membandingkan Jenis Media</b></br></br>
 Pilihan jenis media mempengaruhi jenis kartu antarmuka jaringan yang dipasang, kecepatan jaringan, dan kemampuan jaringan untuk memenuhi kebutuhan di masa mendatang. Tabel 4-1 membandingkan fitur media jaringan umum, termasuk UTP, STP, kabel koaksial, serat optik, dan koneksi nirkabel.</p>
-<table align="justify"><tr align="center">
+<table><tr align="center">
 <td>Tipe media</td><td>Panjang Segmen Maksimum</td><td>Kecepatan</td><td>Biaya Komparatif</td><td>Keuntungan</td><td>Kekurangan	</td>
 <tr><td> UTP</td><td>100 meter</td><td>10 Mbps</br>100 Mbps</td><td>Paling murah</td><td>Mudah dipasang, tersedia luas, banyak digunakan</td><td>Rentan terhadap gangguan; hanya dapat menempuh jarak yang terbatas</td></tr>
 <tr><td> STP</td><td>100 meter</td><td>10–100 Mbps</td><td>Lebih mahal dari UTP</td><td>Mengurangi crosstalk, kurang rentan terhadap EMI dibandingkan UTP atau Thinnet</td><td>Sulit untuk dikerjakan; hanya dapat menempuh jarak yang terbatas</td></tr>
