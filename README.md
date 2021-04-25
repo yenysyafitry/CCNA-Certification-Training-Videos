@@ -167,7 +167,7 @@ Pilihan jenis media mempengaruhi jenis kartu antarmuka jaringan yang dipasang, k
 <tr><td> STP</td><td>100 meter</td><td>10–100 Mbps</td><td>Lebih mahal dari UTP</td><td align="justify">Mengurangi crosstalk, kurang rentan terhadap EMI dibandingkan UTP atau Thinnet</td><td align="justify">Sulit untuk dikerjakan; hanya dapat menempuh jarak yang terbatas</td></tr>
 <tr><td> Koaksial</td><td>500 meter (Thicknet)</br>185 meter (Thinnet)</td><td>10–100 Mbps</td><td>Relatif murah, tapi lebih mahal dari UTP</td><td align="justify">Kurang rentan terhadap EMI dibandingkan jenis media tembaga lainnya</td><td align="justify">Sulit untuk bekerja dengan (Thicknet), bandwidth terbatas, aplikasi terbatas (Thinnet), kerusakan kabel dapat merusak seluruh jaringan</td></tr>
 <tr><td>Serat optik</td><td>3 km dan lebih jauh (mode tunggal)</br>2 km dan lebih jauh (multimode)</td><td>10–1000 Mbps (mode tunggal)</br>100 Mbps – 9,92 Gbps (multimode)</td><td>Mahal</td><td align="justify">Tidak dapat disadap dengan mudah, jadi keamanan lebih baik; dapat digunakan dalam jarak yang sangat jauh; tidak rentan terhadap EMI; kecepatan data yang lebih tinggi daripada coaxial dan twisted-pair</td><td align="justify">Sulit untuk dihentikan</td></tr>
-<tr><td>Nirkabel</td><td>50 km — global</td><td>1–54 Mbps</td><td>Mahal</td><td align="justify">Tidak membutuhkan instalasi media</td><td align="justify">Rentan terhadap kondisi atmosfer</td></tr>
+<tr align="justify"><td>Nirkabel</td><td>50 km - global</td><td>1–54 Mbps</td><td>Mahal</td><td align="justify">Tidak membutuhkan instalasi media</td><td align="justify">Rentan terhadap kondisi atmosfer</td></tr>
     </table>
 
 
