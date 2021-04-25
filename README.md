@@ -1,7 +1,7 @@
 ### CCNA Certification Training Videos
 <p align="justify"><b>Sistem Operasi Disk</b></br>Komputer pertama tidak memiliki perangkat penyimpanan modern seperti hard drive, drive optik, atau penyimpanan flash. Metode penyimpanan pertama menggunakan kartu berlubang, pita kertas, pita magnetik, dan bahkan kaset audio. Floppy disk dan penyimpanan hard disk memerlukan perangkat lunak untuk membaca, menulis, dan mengelola data yang disimpannya. Disk Operating System (DOS) adalah sistem operasi yang digunakan komputer untuk mengaktifkan perangkat penyimpanan data ini untuk membaca dan menulis file. DOS menyediakan sistem file yang mengatur file dengan cara tertentu pada disk. Microsoft membeli DOS dan mengembangkan MS-DOS. MS-DOS menggunakan baris perintah sebagai antarmuka bagi orang-orang untuk membuat program dan memanipulasi file data, seperti yang ditunjukkan pada keluaran perintah. Perintah DOS ditampilkan dalam teks tebal.</p>
 <p align="center">
-  <img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/Screenshot_4.jpg"> </p>
+  <img src="https://github.com/yenysyafitry/Cisco-CCNA/blob/main/Screenshot_4.jpg"> </p>
   <p align="justify"> Versi awal Windows terdiri dari Antarmuka Pengguna Grafis (GUI) yang berjalan di atas MS-DOS, dimulai dengan Windows 1.0 pada tahun 1985. Sistem operasi disk masih mengontrol komputer dan perangkat kerasnya. Sistem operasi modern seperti Windows 10 tidak dianggap sebagai sistem operasi disk. Itu dibangun di atas Windows NT, yang merupakan singkatan dari "Teknologi Baru". Sistem operasi itu sendiri mengendalikan langsung komputer dan perangkat kerasnya. NT adalah OS dengan dukungan untuk banyak proses pengguna. Ini jauh berbeda dari proses tunggal, MS-DOS pengguna tunggal.</br></br>
 Saat ini, banyak hal yang dulunya diselesaikan melalui antarmuka baris perintah MS-DOS dapat diselesaikan di GUI Windows. Anda masih bisa merasakan bagaimana rasanya menggunakan MS-DOS dengan membuka jendela perintah, tetapi yang Anda lihat bukan lagi MS-DOS, ini adalah fungsi dari Windows. Untuk mengalami sedikit pengalaman bekerja di MS-DOS, buka jendela perintah dengan mengetik cmd di Windows Search dan menekan Enter . Tabel mencantumkan beberapa perintah yang dapat Anda gunakan. Masukkan bantuan diikuti dengan perintah untuk mempelajari lebih lanjut tentang perintah tersebut.</p>
 
@@ -26,12 +26,12 @@ Dengan setiap rilis Windows berikutnya, sistem operasi menjadi lebih disempurnak
 
 <p align="justify"><b>GUI Windows</b></br>Windows memiliki antarmuka pengguna grafis (GUI) bagi pengguna untuk bekerja dengan file data dan perangkat lunak. GUI memiliki area utama yang dikenal sebagai Desktop, seperti yang ditunjukkan pada gambar.</p>
 <p align="center">
-  <img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/Screenshot_5.jpg"> </p>
+  <img src="https://github.com/yenysyafitry/Cisco-CCNA/blob/main/Screenshot_5.jpg"> </p>
  <p align="justify"> Desktop dapat disesuaikan dengan berbagai warna dan gambar latar belakang. Windows mendukung banyak pengguna, sehingga setiap pengguna dapat menyesuaikan Desktop sesuai keinginan mereka. Desktop dapat menyimpan file, folder, pintasan ke lokasi dan program, dan aplikasi. Desktop juga memiliki ikon keranjang sampah, di mana file disimpan saat pengguna menghapusnya. File dapat dipulihkan dari recycle bin atau recycle bin dapat mengosongkan file, yang benar-benar menghapusnya.</br></br>
 Di bagian bawah desktop adalah Bilah Tugas. Bilah Tugas memiliki tiga area yang digunakan untuk tujuan berbeda. Di sebelah kiri adalah menu Start. Ini digunakan untuk mengakses semua program yang diinstal, opsi konfigurasi, dan fitur pencarian. Di tengah Bilah Tugas, pengguna menempatkan ikon peluncuran cepat yang menjalankan program tertentu atau membuka folder tertentu saat diklik. Terakhir, di sebelah kanan Bilah Tugas adalah area notifikasi. Area notifikasi sekilas menunjukkan fungsionalitas dari berbagai program dan fitur. Misalnya, ikon amplop berkedip mungkin menunjukkan email baru, atau ikon jaringan dengan "x" merah mungkin menunjukkan masalah dengan jaringan.</br></br>
 Seringkali, mengklik kanan ikon akan memunculkan fungsi tambahan yang dapat digunakan. Daftar ini dikenal sebagai Menu Konteks, ditunjukkan pada gambar.</p>
 <p align="center">
-  <img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/Screenshot_6.jpg"> </p>
+  <img src="https://github.com/yenysyafitry/Cisco-CCNA/blob/main/Screenshot_6.jpg"> </p>
  <p align="justify">Terdapat Menu Konteks untuk ikon di area notifikasi, untuk ikon pengaktifan cepat, ikon konfigurasi sistem, dan untuk file dan folder. Menu Konteks menyediakan banyak fungsi yang paling umum digunakan hanya dengan mengklik. Misalnya, Menu Konteks untuk file akan berisi item seperti salin, hapus, bagikan, dan cetak. Untuk membuka folder dan memanipulasi file, Windows menggunakan Windows File Explorer.</br></br>
 <b>Kerentanan Sistem Operasi</b></br>
 Sistem operasi terdiri dari jutaan baris kode. Perangkat lunak yang diinstal juga dapat berisi jutaan baris kode. Dengan semua kode ini muncul kerentanan. Kerentanan adalah beberapa kekurangan atau kelemahan yang dapat dimanfaatkan oleh penyerang untuk mengurangi kelangsungan informasi komputer. Untuk memanfaatkan kerentanan sistem operasi, penyerang harus menggunakan teknik atau alat untuk memanfaatkan kerentanan tersebut. Penyerang kemudian dapat menggunakan kerentanan untuk membuat komputer bertindak dengan cara di luar desain yang dimaksudkan. Secara umum, tujuannya adalah untuk mendapatkan kontrol komputer yang tidak sah, mengubah izin, atau memanipulasi atau mencuri data.</br></br>
@@ -53,7 +53,7 @@ Tabel mencantumkan beberapa rekomendasi umum Keamanan OS Windows.
 Komputer Windows menggunakan berbagai jenis perangkat keras. Sistem operasi dapat diinstal di komputer yang dibeli atau di komputer yang dirakit oleh pengguna. Ketika sistem operasi diinstal, itu harus diisolasi dari perbedaan perangkat keras. Arsitektur dasar Windows ditunjukkan pada gambar.</p>
 
 <p align="center">
-  <img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/Screenshot_7.jpg"> </p>
+  <img src="https://github.com/yenysyafitry/Cisco-CCNA/blob/main/Screenshot_7.jpg"> </p>
  
 <p align="justify">Lapisan abstraksi perangkat keras (HAL) adalah perangkat lunak yang menangani semua komunikasi antara perangkat keras dan kernel. Kernel adalah inti dari sistem operasi dan memiliki kendali atas seluruh komputer. Ini menangani semua permintaan input dan output, memori, dan semua periferal yang terhubung ke komputer.</br>
 Dalam beberapa kasus, kernel masih berkomunikasi dengan perangkat keras secara langsung, sehingga tidak sepenuhnya independen dari HAL. HAL juga membutuhkan kernel untuk menjalankan beberapa fungsi.</br></br>
@@ -116,7 +116,7 @@ Kategori 1 —Digunakan untuk komunikasi telepon; tidak cocok untuk transmisi da
 <li> Kategori 5e —Digunakan dalam jaringan yang berjalan dengan kecepatan hingga 1000 Mbps (1 Gbps)</li>
 <li> Kategori 6 —Terdiri dari empat pasang kabel tembaga ukuran 24 yang dapat mengirimkan data dengan kecepatan hingga 1000 Mbps</li></ul>
 <p align="justify"><b>Kabel Shielded Twisted-Pair (STP)</b>, menggabungkan teknik pelindung dan pelintiran kabel untuk lebih melindungi dari degradasi sinyal. Setiap pasang kabel dibungkus dengan lembaran logam. Keempat pasang kabel tersebut kemudian dibungkus dengan jalinan logam atau foil secara keseluruhan, biasanya kabel 150-ohm. Ditentukan untuk digunakan dalam penginstalan jaringan Ethernet, STP mengurangi gangguan listrik baik di dalam kabel (sambungan pasangan-ke-pasangan, atau crosstalk) dan dari luar kabel (EMI dan RFI). Topologi jaringan Token Ring menggunakan STP.</p>
-<p align="center"><img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/fig01 (1).gif"> </p>	
+<p align="center"><img src="https://github.com/yenysyafitry/Cisco-CCNA/blob/main/fig01 (1).gif"> </p>	
 	
 <p align="justify"><b>Kabel Twisted-Pair Terlindung</b></br>
 Saat Anda mempertimbangkan untuk menggunakan UTP dan STP untuk media jaringan Anda, pertimbangkan hal berikut:</p>
@@ -206,18 +206,18 @@ one hex digit = 4 bits</br>
 
 Sample IPv4 Subnets
 <p align="center">
-  <img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/Screenshot_1.jpg"> </p>
+  <img src="https://github.com/yenysyafitry/Cisco-CCNA/blob/main/Screenshot_1.jpg"> </p>
  
 
 
 IPv4 Address Config
 <p align="center">
-  <img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/Screenshot_2.jpg"> </p>
+  <img src="https://github.com/yenysyafitry/Cisco-CCNA/blob/main/Screenshot_2.jpg"> </p>
  
 
 Locations For IPv6 Subnets
 <p align="center">
-  <img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/Screenshot_3.jpg"> </p>
+  <img src="https://github.com/yenysyafitry/Cisco-CCNA/blob/main/Screenshot_3.jpg"> </p>
  
 <p align="justify">IPv6 Routing types :</p>
 <ul>	<li>Static</li>
