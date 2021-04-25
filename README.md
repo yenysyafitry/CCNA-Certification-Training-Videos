@@ -59,8 +59,7 @@ Komputer Windows menggunakan berbagai jenis perangkat keras. Sistem operasi dapa
 Dalam beberapa kasus, kernel masih berkomunikasi dengan perangkat keras secara langsung, sehingga tidak sepenuhnya independen dari HAL. HAL juga membutuhkan kernel untuk menjalankan beberapa fungsi.</br></br>
 <b>Mode Pengguna dan Mode Kernel</b></br>
 Seperti yang ditunjukkan pada gambar, ada dua mode berbeda di mana CPU beroperasi ketika komputer telah menginstal Windows: mode pengguna dan mode kernel.</p>
-<p align="center">
-  <img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/Screenshot_8.jpg"> </p>
+<p align="center"><img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/Screenshot_8.jpg"> </p>
  <p align="justify">
  Aplikasi yang diinstal berjalan dalam mode pengguna, dan kode sistem operasi berjalan dalam mode kernel. Kode yang dijalankan dalam mode kernel memiliki akses tidak terbatas ke perangkat keras yang mendasarinya dan mampu menjalankan instruksi CPU apa pun. Kode mode kernel juga dapat merujuk ke alamat memori apa pun secara langsung. Umumnya disediakan untuk fungsi OS yang paling tepercaya, crash dalam kode yang berjalan dalam mode kernel menghentikan operasi seluruh komputer. Sebaliknya, program seperti aplikasi pengguna, berjalan dalam mode pengguna dan tidak memiliki akses langsung ke perangkat keras atau lokasi memori. Kode mode pengguna harus melalui sistem operasi untuk mengakses sumber daya perangkat keras. Karena isolasi yang disediakan oleh mode pengguna, kerusakan dalam mode pengguna dibatasi hanya untuk aplikasi dan dapat dipulihkan. Sebagian besar program di Windows berjalan dalam mode pengguna.</br></br> 
 Semua kode yang berjalan dalam mode kernel menggunakan ruang alamat yang sama. Driver mode kernel tidak memiliki isolasi dari sistem operasi. Jika terjadi kesalahan dengan driver yang berjalan dalam mode kernel, dan itu menulis ke ruang alamat yang salah, sistem operasi atau driver mode kernel lainnya dapat terpengaruh secara negatif. Dalam hal ini, pengemudi mungkin macet, menyebabkan seluruh sistem operasi macet.</br></br>
@@ -98,6 +97,38 @@ Istilah Ethernet mengacu pada keluarga produk jaringan area lokal (LAN) yang dic
 <li> Memberikan fleksibilitas topologi yang luas untuk instalasi jaringan</li>
 <li> Menjamin keberhasilan interkoneksi dan pengoperasian produk yang memenuhi standar, terlepas dari pabrikannya</li></ul>
 
+<p align="justify">Bab ini membahas beberapa jenis media jaringan, termasuk kabel twisted-pair, kabel koaksial, kabel serat optik, dan nirkabel. Ini menyoroti konsep dan prosedur untuk merakit dan memasang kabel router Cisco. Bab ini juga mencakup pemasangan kabel dan konektor yang digunakan untuk menghubungkan sakelar dan router di LAN atau WAN. Terakhir, ini menyajikan faktor-faktor yang harus Anda pertimbangkan saat memilih perangkat jaringan.</br></br>
+<b>Kabel dan Infrastruktur</b></br>
+Media adalah lingkungan fisik aktual tempat data bergerak saat bergerak dari satu komponen ke komponen lainnya, dan menghubungkan perangkat jaringan. Jenis media jaringan yang paling umum adalah kabel twisted-pair, kabel koaksial, kabel serat optik, dan nirkabel. Setiap jenis media memiliki kemampuan khusus dan melayani tujuan tertentu.</br></br>
+Memahami jenis koneksi yang dapat digunakan dalam jaringan memberikan pemahaman yang lebih baik tentang bagaimana jaringan berfungsi dalam mentransmisikan data dari satu titik ke titik lainnya.</br></br>
+<b>Kabel Twisted-Pair</b></br>
+Twisted-pair adalah kabel berbasis kawat tembaga yang dapat diberi pelindung atau tidak. Twisted-pair adalah media yang paling umum untuk konektivitas jaringan.</br></br>
+<b>Kabel unshielded twisted-pair (UTP)</b>, seperti yang ditunjukkan pada Gambar 4-1, adalah kabel empat pasang. Masing-masing dari delapan kabel tembaga individu di kabel UTP ditutupi oleh bahan isolasi. Selain itu, kabel di setiap pasangan dipelintir satu sama lain. Keunggulan kabel UTP adalah kemampuannya untuk menghilangkan interferensi, karena pasangan kabel-twisted membatasi degradasi sinyal dari interferensi elektromagnetik (EMI) dan interferensi frekuensi radio (RFI). Untuk lebih mengurangi crosstalk antara pasangan kabel UTP, jumlah lilitan pada pasangan kabel bervariasi. UTP, serta kabel berpelintir berpelindung (STP), harus mengikuti spesifikasi yang tepat mengenai berapa banyak lilitan atau kepang yang diizinkan per meter.</p>
+<p align="center"><img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/fig01.gif"> </p>
+<p align="justify"><b>Kabel Twisted-Pair Tanpa Pelindung</b></br>
+Kabel UTP digunakan di berbagai jaringan. Saat digunakan sebagai media jaringan, kabel UTP memiliki empat pasang kabel tembaga ukuran 22 atau 24. UTP yang digunakan sebagai media jaringan memiliki impedansi 100 ohm, yang membedakannya dari jenis kabel twisted-pair lainnya seperti yang digunakan untuk kabel telepon. Karena kabel UTP memiliki diameter luar kira-kira 0,43 cm (0,17 inci), ukurannya yang kecil dapat menguntungkan selama pemasangan. Selain itu, karena UTP dapat digunakan dengan sebagian besar arsitektur jaringan utama, popularitasnya terus meningkat.</br></br>
+Ada beberapa kategori kabel UTP:</p><ul align="justify"><li> 
+Kategori 1 —Digunakan untuk komunikasi telepon; tidak cocok untuk transmisi data</li>
+<li> Kategori 2 —Mampu mentransmisikan data dengan kecepatan hingga 4 Mbps</li>
+<li> Kategori 3 —Digunakan dalam jaringan 10BASE-T; dapat mengirimkan data dengan kecepatan hingga 10 Mbps</li>
+<li> Kategori 4 —Digunakan dalam jaringan Token Ring; dapat mengirimkan data dengan kecepatan hingga 16 Mbps</li>
+<li> Kategori 5 —Mampu mentransmisikan data dengan kecepatan hingga 100 Mbps</li>
+<li> Kategori 5e —Digunakan dalam jaringan yang berjalan dengan kecepatan hingga 1000 Mbps (1 Gbps)</li>
+<li> Kategori 6 —Terdiri dari empat pasang kabel tembaga ukuran 24 yang dapat mengirimkan data dengan kecepatan hingga 1000 Mbps</li></ul>
+<p align="justify"><b>Kabel Shielded Twisted-Pair (STP)</b>, menggabungkan teknik pelindung dan pelintiran kabel untuk lebih melindungi dari degradasi sinyal. Setiap pasang kabel dibungkus dengan lembaran logam. Keempat pasang kabel tersebut kemudian dibungkus dengan jalinan logam atau foil secara keseluruhan, biasanya kabel 150-ohm. Ditentukan untuk digunakan dalam penginstalan jaringan Ethernet, STP mengurangi gangguan listrik baik di dalam kabel (sambungan pasangan-ke-pasangan, atau crosstalk) dan dari luar kabel (EMI dan RFI). Topologi jaringan Token Ring menggunakan STP.</p>
+<p align="center"><img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/fig01 (1).gif"> </p>	
+	
+<p align="justify"><b>Kabel Twisted-Pair Terlindung</b></br>
+Saat Anda mempertimbangkan untuk menggunakan UTP dan STP untuk media jaringan Anda, pertimbangkan hal berikut:</p>
+<ul align="justify"><li> Kecepatan dari kedua jenis media biasanya memuaskan untuk jarak area lokal.</li>
+<li>Keduanya adalah media komunikasi data yang paling murah. UTP lebih murah dari STP.</li>
+<li>Karena sebagian besar bangunan telah terhubung dengan UTP, banyak standar transmisi yang diadaptasi untuk digunakan guna menghindari pengkabelan ulang yang mahal dengan jenis kabel alternatif.</li></ul>
+
+<p align="justify"><b>Kabel twisted-pair</b> adalah kabel jaringan yang paling umum digunakan saat ini; namun, beberapa jaringan masih menggunakan teknologi lama seperti kabel koaksial, seperti yang dibahas di bagian selanjutnya.</br></br>
+<b>Kawat koaksial</b></br>
+Kabel koaksial terdiri dari konduktor silinder luar berongga yang mengelilingi satu elemen penghantar kawat dalam. Bagian ini menjelaskan karakteristik dan penggunaan kabel koaksial.</P>
+<p align="center"><img src="https://github.com/yenysyafitry/CCNA-Certification-Training-Videos/blob/main/fig02.gif"> </p>	 
+<p align="justify">Kabel dalam tunggal yang terletak di tengah kabel koaksial adalah konduktor tembaga, dikelilingi oleh lapisan insulasi fleksibel. Di atas bahan isolasi ini terdapat anyaman anyaman tembaga atau lembaran logam yang berfungsi sebagai kabel kedua di sirkuit dan sebagai pelindung untuk konduktor bagian dalam. Lapisan atau perisai kedua ini dapat membantu mengurangi jumlah gangguan dari luar. Jaket luar menutupi perisai ini. Konektor BNC yang ditampilkan sangat mirip dengan konektor televisi kabel dan terhubung ke NIC lama dengan antarmuka BNC.</p>
 <p align="justify">IPv6 Addressing Differences</p><ol><li>link Local Addresses</li>
 	<li>Solicited Node Multicast Address</li>
 	<li>Specific purpose multicast addresses </li> </ol>
