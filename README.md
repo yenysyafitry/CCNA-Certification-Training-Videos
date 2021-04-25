@@ -247,7 +247,7 @@ Berikut adalah bagaimana oktet biner diubah menjadi desimal: Bit paling kanan, a
 ```
 
 
-<p align="center"><img src="https://github.com/yenysyafitry/Cisco-CCNA/blob/main/13769-fig-5-new.png"> </p>
+
 
 <p align="justify"><b> IPv6 Address Notation</b></br></p>
 
